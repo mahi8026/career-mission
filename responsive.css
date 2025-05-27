@@ -1,0 +1,45 @@
+/*laptop device*/
+@media screen and (max-width:1200px){
+    #banner {
+    width: 1024px;   
+}
+.info-section{
+    width: 1024px;
+}
+.info-text {
+       text-align: center;
+    }
+}
+/*tablet*/
+@media screen and (max-width:1024px) {
+
+    .info-section{
+        width: 768px;
+        margin: 60px auto;
+    }
+    #banner{
+        width: 768px;
+    }
+
+    
+}
+
+/*mobile*/
+@media screen and (max-width:640px) {
+    #banner {
+        width: 425px;
+    }
+    .info-section {
+        width: 425px;
+    }
+    .info-text{
+        margin-top: 1px;
+    }
+    .info-text p {
+        margin-bottom: 2px;
+    }
+    .discuss-btn {
+        padding: 10px 18px;
+    }
+
+}

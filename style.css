@@ -1,0 +1,240 @@
+* {
+    font-family:"Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(#E6E6FA, #B8E7FA);
+    line-height: 1.5;
+}
+span {
+    color: #ffa500;
+}
+h2 {
+    color: #0d1321;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+}
+#banner {
+    height: 550px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6EDF9;  
+    margin: 60px auto;
+    border-radius: 16px;
+    padding: 40px 30px;  
+
+}
+.banner-content h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.banner-content p {
+    font-size: 15px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+
+.download-btn {
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    background-image: linear-gradient(#FFA500, #ffd447);
+    display: inline-flex;
+    transition: background 0.4s ease;
+}
+.download-btn:hover{
+    background: linear-gradient(90deg, #fab93e 0%, #f7b536 100%);
+}
+
+.container-btn {
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    background-image: linear-gradient(#FFD447, #FFA500);
+    display: flex;
+    transition: background 0.4s ease;
+}
+.container-btn:hover{
+    background: linear-gradient(90deg, #fab93e 0%, #f7b536 100%);
+}
+
+.discuss-btn {
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    background-image: linear-gradient(#FFD447, #FFA500);
+    display: inline-flex;
+    transition: background 0.4s ease;
+}
+.discuss-btn:hover{
+    background: linear-gradient(90deg, #fab93e 0%, #f7b536 100%);
+}
+.why-web{
+    max-width: 100%;
+    margin: 40px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 30px;
+}
+.why-web h2 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 18px;
+    color: #0D1321;
+}
+.why-web p {
+    font-size: 14px;
+    color: #373A50;
+    max-height: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.info-section {
+    display: flex;
+    background-color: #E6EDF9;
+    width: 1260px;
+    margin: 60px 145px 60px 145px;
+    border-radius: 12px;
+    
+}
+
+.info-text {
+    flex: 1;
+    text-align: center;
+    margin-top: 80px;
+
+}
+.info-text h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0D1321;
+}
+.info-text p {
+    font-size: 1rem;
+    color: #373A50;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.info-image {
+    flex: 1;
+    text-align: right;
+}
+.info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.inspiration-section {
+    max-width: 900px;
+    border-radius: 1rem;
+    margin: 40px auto;
+    padding: 30px 25px;
+    text-align: center;
+}
+.inspiration-section h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+.inspiration-section p {
+    font-size: 15px;
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    line-height: 1.4;
+}
+.inspiration-section iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 1rem;
+    border: none;
+    padding: 32px;
+    box-shadow: 0 4px 8px;
+}
+
+.current-target {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+.current-target h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+.current-target p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+.card {
+    background: linear-gradient(#E6E6FA, #B8E7FA);
+    width: 180px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 8px 15px;
+    transition: 0.3s ease, 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 22px;
+}
+.card img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: #0D1321;
+}
+.card a {
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: #0D1321;
+}
+footer {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+}
